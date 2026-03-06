@@ -3,27 +3,27 @@ import { Code2, Rocket, Layout, RefreshCcw } from "lucide-react";
 const principles = [
   {
     icon: Code2,
-    title: "Structured & Scalable Code",
+    title: "Kode Terstruktur & Terukur",
     description:
-      "I design modular component systems in React and TypeScript so features can scale without refactoring the entire codebase.",
+      "Saya mendesain sistem komponen sehingga fitur dapat diskalakan tanpa perlu melakukan refactoring seluruh basis kode.",
   },
   {
     icon: Rocket,
-    title: "Performance-Oriented Mindset",
+    title: "Pola Pikir Berorientasi Kinerja",
     description:
-      "I prioritize efficient rendering and predictable state flows to avoid performance bottlenecks as applications grow.",
+      "Saya memprioritaskan rendering yang efisien dan aliran status yang dapat diprediksi untuk menghindari bottleneck kinerja seiring pertumbuhan aplikasi.",
   },
   {
     icon: Layout,
-    title: "Design Consistency",
+    title: "Konsistensi Desain",
     description:
-      "I maintain consistent spacing systems and reusable UI patterns to ensure faster iteration and visual consistency across features.",
+      "Saya mempertahankan sistem spacing yang konsisten dan pola UI yang dapat digunakan kembali untuk memastikan iterasi yang lebih cepat dan konsistensi visual di seluruh fitur.",
   },
   {
     icon: RefreshCcw,
-    title: "Continuous Improvement",
+    title: "Perbaikan Berkelanjutan",
     description:
-      "I continuously refactor existing code to reduce technical debt and keep projects aligned with modern standards.",
+      "Saya terus menerus melakukan refactor pada kode yang ada untuk mengurangi technical debt dan menjaga proyek tetap selaras dengan standar modern.",
   },
 ];
 
@@ -39,19 +39,19 @@ export const Testimonial = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-            My Approach
+            Pendekatan Saya
           </span>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 mb-6 text-secondary-foreground leading-tight">
-            Building Digital Products with{" "}
+            Membangun Produk Digital dengan{" "}
             <span className="font-serif italic font-normal text-white">
-              clarity & structure.
+              kejelasan & struktur.
             </span>
           </h2>
 
           <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
-            I don’t just create interfaces — I design scalable systems that are
-            structured, maintainable, and built for real-world performance.
+            Saya tidak hanya membuat antarmuka — saya mendesain sistem yang terukur, 
+            terstruktur, mudah dipelihara, dan dibangun untuk kinerja di dunia nyata.
           </p>
         </div>
 

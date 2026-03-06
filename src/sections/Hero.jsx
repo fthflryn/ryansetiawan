@@ -8,6 +8,9 @@ const skills = [
     "Laravel",
     "React.js",
     "Next.js",
+    "Vue.js",
+    "React.js",
+    "Flutter",
     "PHP",
     "TypeScript",
     "Vercel",
@@ -16,6 +19,8 @@ const skills = [
     "Tailwind CSS",
     "HTML",
     "MySQL",
+    "SQLlite",
+    "REST API",
     "GIT",
     "React Native",
 ];
@@ -112,27 +117,27 @@ export const Hero = () => {
                         {/* Judul */}  
                         <div className="space-y-4">
                             <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">   
-                                Let’s Build <span className="text-primary glow-text">Digital</span>
-                                <br />
-                                Solutions
+                                Membangun Solusi <span className="text-primary glow-text">Digital</span>
                                 <br />
                                 <span className="font-serif italic font-normal text-white">
-                                    That Truly Matter.
+                                    Yang Bermanfaat
                                 </span>
                             </h1>
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-800">
-                                Hi, I’m Naufal Bagaskara Budihutama, a full-stack developer focused on building end-to-end web applications. 
-                                I work across both frontend and backend, with attention to code structure, performance, and long-term maintainability. 
-                                I use modern technologies to create clean user interfaces, well-structured APIs, and reliable database integrations to deliver practical and sustainable digital solutions.
+                                Hai, saya Naufal Bagaskara Budihutama, seorang Full-Stack Developer 
+                                yang membangun aplikasi web modern dari frontend hingga backend.
+                                Saya fokus pada kode yang rapi, performa yang baik, dan solusi digital yang dapat digunakan dalam jangka panjang.
                             </p>
                         </div>
 
                         {/* CTA */}
                         <div className="flex flex-warp gap-4 animate-fade-in animation-delay-300">
-                            <Button size="lg">
-                                Contact Me <ArrowRight className="w-5 h-5" />
-                            </Button>
-                            <a href="/cv/NAUFAL BAGASKARA BUDIHUTAMA-resume.pdf" download className="inline-block">
+                            <a href="#contact">
+                                <Button size="lg">
+                                    Contact Me <ArrowRight className="w-5 h-5" />
+                                </Button>
+                            </a>
+                            <a href="/cv/CV Naufal Bagaskara Budihutama.pdf" download className="inline-block">
                                 <AnimatedBorderButton>
                                     <Download className="w-5 h-5"/> 
                                     Download CV
@@ -176,12 +181,12 @@ export const Hero = () => {
                                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                                     <div className="flex items-center gap-3 ">
                                         <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"/>
-                                        <span className="text-sm font-medium"> Avaible For Work</span>
+                                        <span className="text-sm font-medium"> Avaible For Work </span>
                                     </div>
                                 </div>
                                 {/* stats */}
                                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                                    <div className="text-2xl font-bold text-primary">Actively </div>
+                                    <div className="text-2xl font-bold text-primary"> Actively </div>
                                     <div className="text-xs text-muted-foreground">Building & Learning</div>
                                 </div>
                             </div>

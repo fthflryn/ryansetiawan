@@ -91,17 +91,17 @@ export const Contact = () => {
                 {/* Judul Contact */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-                        Get In Touch
+                        Hubungi Saya
                     </span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-                        Let's build {""}
+                        Mari Membangun {""}
                         <span className="font-serif italic font-normal text-white">
-                            something great.
+                            sesuatu yang hebat.
                         </span>
                     </h2>
                     <p className="text-muted-foreground animate-fade-in animation-delay-200">
-                        Have a project in mind? I'd love to hear about it. Send me a message
-                        and let's discuss how we can work together.
+                        Punya proyek dalam pikiran? Saya akan senang mendengarnya. Kirim saya pesan
+                        dan mari kita diskusikan bagaimana kita bisa bekerja sama.
                     </p>
                 </div>
 
@@ -234,12 +234,12 @@ export const Contact = () => {
                         <div className="glass rounded-3xl p-8 border border-primary/30">
                             <div className="flex items-center gap-3 mb-4">
                                 <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse"/>
-                                <span className="font medium"> Curretly Available </span>
+                                <span className="font medium"> Tersedia untuk Kolaborasi </span>
                             </div>
                             <p className="text-muted-foreground text-sm">
-                                I'm currently open to new opportunities and exciting projects.
-                                Whether you need a full-time engineer or a freelance consultant,
-                                let's talk!
+                                Saya saat ini terbuka untuk peluang baru dan proyek-proyek menarik.
+                                Apakah Anda membutuhkan insinyur penuh waktu atau konsultan bebas,
+                                mari kita berbicara!
                             </p>
                         </div>
                     </div>

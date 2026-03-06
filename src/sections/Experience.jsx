@@ -44,17 +44,17 @@ export const Experience = () => {
             <div className="container mx-auto px-6 relative z-10">
                 {/* Judul */}
                 <div className="max-w-3xl mb-16">
-                    <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Achivments Journey</span>
+                    <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Pencapaian</span>
                     <h2 className="text-4xl md-text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-                        This My 
+                        Perjalanan
                         <span className="font-serif italic font-normal text-white"> 
                             {" "}
-                            Achivments 
+                            Pembelajaran Saya 
                         </span>
                     </h2>
 
                     <p className="text-muted-foreground animate-fade-in animation-delay-200">
-                        Here are some of my professional experiences and achievements in the field of web and mobile development.
+                        Beberapa sertifikat dan pencapaian yang saya peroleh selama mempelajari dan mengembangkan keterampilan di bidang pengembangan web dan aplikasi.
                     </p>
                 </div>
 
